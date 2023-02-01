@@ -11,7 +11,20 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+  <?php
+ $data = [1,2,3,4,5,6,7,8,9,10];
+ ?>
+<ul>
+ <?php
+ foreach($data as $val){
+    ?>
+    <li> <?php  echo $val ;  ?></li><br/>      
+    <?php
+ }
+
+?>
+</ul>
+
 
     <!-- Optional JavaScript; choose one of the two! -->
 
